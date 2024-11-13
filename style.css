@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    @font-face {
+        font-family: regular;
+        src: url(Fonts/regular.ttf);
+    }
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: regular;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+#heading-line{
+    /* background-color: blue; */
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 4vh;
+}
+#heading-line h1{
+    font-size: 6vw;
+    font-weight: 500;
+}
+#heading-line h2{
+    margin-top: 0px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    background-color: black;
+    padding:5px 10px 5px 10px;
+}
+#background-img{
+    background-image: url(png/assets/Home-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    width: 80vh;
+    overflow: hidden;
+}
+
+#explore-btn{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    bottom: 0px;
+    overflow: hidden;
+    font-size: medium;
+    font-weight: 600;
+    z-index: 99;
+}
+#explore-btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#footer{
+    height: 50px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 0px 3vw 0px 3vw;
+}
+#footer-right-side{
+    color: rgb(182, 182, 182);
+    font-size: 13px;
+}
+.svg{
+    width: 17px;
+    margin-left: 20px;
+}
+::selection {
+
+    background-color: black;
+  
+    color: white;
+  
+  }
+  
