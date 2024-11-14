@@ -5,12 +5,20 @@
     }
     @font-face {
         font-family: regular;
-        src: url(Fonts/regular.ttf);
+        src: url(/assets/Fonts/regular.ttf);
+    }
+    @font-face{
+        font-family: Black-bold;
+        src: url(/assets/Fonts/Moniqa-BlackDisplay.ttf);
     }
 html, body{
     height: 100%;
     width: 100%;
     font-family: regular;
+}
+::selection {
+    background-color: black;
+    color: white;
 }
 #main{
     height: 100%;
@@ -37,6 +45,7 @@ html, body{
 #heading-line h1{
     font-size: 6vw;
     font-weight: 500;
+    line-height: 8vw;
 }
 #heading-line h2{
     margin-top: 0px;
@@ -46,7 +55,7 @@ html, body{
     padding:5px 10px 5px 10px;
 }
 #background-img{
-    background-image: url(png/assets/Home-img.jpeg);
+    background-image: url(/assets/png/Home-img.jpeg);
     background-size: cover;
     background-position: center;
     height: 75vh;
@@ -92,11 +101,31 @@ html, body{
     width: 17px;
     margin-left: 20px;
 }
-::selection {
 
-    background-color: black;
-  
+/* Menu-Page */
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page-link-btn{
+    display: none;
+    font-family: Black-bold;
+    text-decoration: none;
     color: white;
-  
-  }
-  
+    font-size: 6vmax;
+}
+#back-btn{
+    font-family: regular;
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+.page-link-btn:hover{
+    text-decoration: underline;
+    font-weight: 100;
+}
+#back-btn:hover{
+    text-decoration: line-through;
+}
