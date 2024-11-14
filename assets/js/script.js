@@ -9,5 +9,4 @@ explore_btn.addEventListener("click",function(){
     heading_line.style.display = "none";
     background_img.style.display = "none";
     explore_btn.style.display = "none";
-    console.log("Button Clicked");
 })
