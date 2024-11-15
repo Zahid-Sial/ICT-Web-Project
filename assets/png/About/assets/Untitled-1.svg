@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1028 230.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 23px;
+        stroke-width: .25px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: BebasNeue-Regular, 'Bebas Neue';
+        stroke: #b2a100;
+      }
+
+      .cls-2 {
+        fill: none;
+        font-size: 70.08px;
+        letter-spacing: 0em;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        letter-spacing: .05em;
+      }
+
+      .cls-4 {
+        letter-spacing: .05em;
+      }
+
+      .cls-5 {
+        letter-spacing: .05em;
+      }
+
+      .cls-6 {
+        fill: #212121;
+      }
+
+      .cls-7 {
+        letter-spacing: .05em;
+      }
+
+      .cls-8 {
+        letter-spacing: .05em;
+      }
+
+      .cls-9 {
+        letter-spacing: .04em;
+      }
+
+      .cls-10 {
+        fill: #d1c990;
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <rect class="cls-6" y="134" width="0" height="0" transform="translate(0 268) rotate(180)"/>
+  <rect x="8.75" width="109.5" height="113" rx="19.88" ry="19.88"/>
+  <text class="cls-2" transform="translate(30.65 87.93) scale(1.1 1.34)"><tspan x="0" y="0">62</tspan></text>
+  <rect class="cls-10" x="9" y="145" width="277" height="1"/>
+  <text class="cls-1" transform="translate(9.47 185.91) scale(1.1 1.32)"><tspan class="cls-7" x="0" y="0">PR</tspan><tspan class="cls-5" x="20.45" y="0">O</tspan><tspan class="cls-7" x="30.7" y="0">JECTS</tspan><tspan class="cls-4" x="0" y="23.48">C</tspan><tspan class="cls-8" x="10.01" y="23.48">OMPLETED</tspan></text>
+  <rect class="cls-6" x="371" y="134" width="0" height="0" transform="translate(742 268) rotate(180)"/>
+  <rect x="379.75" width="109.5" height="113" rx="19.88" ry="19.88"/>
+  <text class="cls-2" transform="translate(401.65 87.93) scale(1.1 1.34)"><tspan x="0" y="0">16</tspan></text>
+  <rect class="cls-10" x="380" y="145" width="277" height="1"/>
+  <text class="cls-1" transform="translate(380.47 185.91) scale(1.1 1.32)"><tspan class="cls-7"><tspan x="0" y="0">years of </tspan></tspan><tspan class="cls-4" x="0" y="23.48">e</tspan><tspan class="cls-8" x="9.55" y="23.48">xperience</tspan></text>
+  <rect class="cls-6" x="742" y="134" width="0" height="0" transform="translate(1484 268) rotate(180)"/>
+  <rect x="750.75" width="109.5" height="113" rx="19.88" ry="19.88"/>
+  <text class="cls-2" transform="translate(772.65 87.93) scale(1.1 1.34)"><tspan x="0" y="0">12</tspan></text>
+  <rect class="cls-10" x="751" y="145" width="277" height="1"/>
+  <text class="cls-1" transform="translate(751.47 185.91) scale(1.1 1.32)"><tspan class="cls-7" x="0" y="0">a</tspan><tspan class="cls-3" x="10.37" y="0">r</tspan><tspan class="cls-7" x="20.75" y="0">t boo</tspan><tspan class="cls-9" x="66.24" y="0">k</tspan><tspan class="cls-8" x="76.75" y="0">s</tspan><tspan class="cls-7"><tspan x="0" y="23.48">publilshed</tspan></tspan></text>
+</svg>
