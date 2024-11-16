@@ -1,0 +1,177 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Rozha;
+    src: url(/assets/Fonts/Rozha-One.ttf);
+}
+html,body {
+    background-color: black;
+    font-family: jost;
+}
+::selection {
+    background-color: black;
+    color: white;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    height: 80px;
+    padding-left: 60px;
+    padding-right: 50px;
+    z-index: 1000;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 330px;
+    height: 100%;
+    color: white;
+}
+
+#logo-text {
+    font-family: Rozha;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+}
+.nav-bar-pages-link {
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.content {
+    color: white;
+    display: flex;
+    align-items:last baseline;
+    justify-content:space-between;
+    height: 23rem;
+    margin-left: 60px;
+    margin-right: 70px;
+    padding-right: 20px;
+    /* background-color: rgb(118, 0, 0); */
+}
+
+.sector1 {
+    font-size: 6vw;
+    font-weight: 100;
+    display: flex;
+    justify-content:flex-start;
+    /* background-color: blueviolet; */
+    width: 50vw;
+}
+
+.sector2 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-family: jost;
+    height: 8.5rem;
+    /* background-color: brown; */
+}
+
+.sector2 .p1 {
+    padding-bottom: 1.5rem;
+    font-size: small;
+}
+
+.sector2 .p2 {
+    /* line-height: 1.4rem; */
+    font-size:1.2rem;
+}
+
+.sector3 {
+    height: 12rem;
+    position: relative;
+    top: 1.5rem;
+    /* background-color: blue; */
+}
+
+.sector3 .p1 {
+    /* padding-bottom: 0.5rem; */
+    font-size: small;
+    font-weight: 600;
+}
+.sector3 .email a{
+    color: rgb(254, 240, 147);
+    padding-bottom: 1.5rem;
+    font-size: large;
+    text-decoration: none;
+}
+.sector3 .p2 {
+    padding-bottom: 1rem;
+    font-size: small;
+    font-weight: 600;
+}
+.sector3 .icons {
+    height: 4rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.sector3 .icons div {
+    font-size: 2.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.icons .twitter {
+    background-image: url(/assets/png/twitter-svgrepo-com.svg);
+    background-size: 1.2rem;
+    background-repeat: no-repeat;
+}
+
+.icons .insta {
+    background-image: url(/assets/png/instagram-svgrepo-com\ \(1\).svg);
+    background-size: 1.2rem;
+    background-repeat: no-repeat;
+}
+
+.icons .m {
+    background-image: url(/assets/png/facebook-svgrepo-com\ \(1\).svg);
+    background-size: 1.2rem;
+    background-repeat: no-repeat;
+}
+#map{
+    position: absolute;
+    right: 70px;
+    /* bottom: 50px; */
+}
+#footer{
+    height: 70px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0px 3vw 0px 3vw;
+}
+#footer-right-side{
+    color: rgb(79, 79, 79);
+    font-size: 13px;
+}
+.svg{
+    width: 17px;
+    margin-left: 20px;
+}

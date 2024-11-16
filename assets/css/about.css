@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 @font-face {
     font-family: Rozha;
     src: url(/assets/Fonts/Rozha-One.ttf);
@@ -23,9 +22,6 @@ html,
 body {
     height: 100%;
     width: 100%;
-}
-
-body {
     font-family: jost;
 }
 
@@ -294,7 +290,6 @@ body {
 }
 
 #fixed-img-2 {
-    font-family: bebas;
     width: 100%;
     height: 32vw;
     background-image: url(/assets/png/About/assets/asset\ 22.jpeg);
