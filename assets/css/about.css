@@ -46,7 +46,9 @@ body {
     padding-right: 50px;
     z-index: 1000;
 }
-
+#nav-bar:hover{
+    background-color: rgb(255, 255, 255);
+}
 #logo {
     display: flex;
     align-items: center;
@@ -231,7 +233,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
-    z-index: 999;
+    z-index: 99;
 }
 
 #transparent {
@@ -302,7 +304,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 999;
+    z-index: 99;
 }
 
 #transparent-2 {

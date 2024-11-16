@@ -30,7 +30,7 @@ body {
     scrollbar-width: thin;
     scrollbar-color:black white;
     scroll-behavior: smooth;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 ::selection {
@@ -127,7 +127,6 @@ body {
     /* background-color: blue; */
     font-size: 4.5vw;
     padding-right: 10px;
-
 }
 #title p{
 margin-left: 5vw;
