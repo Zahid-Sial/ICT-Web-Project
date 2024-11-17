@@ -116,11 +116,11 @@ html, body{
     font-family: Black-bold;
     text-decoration: none;
     color: white;
-    font-size: 6vmax;
+    font-size: 6.5vmax;
 }
 #back-btn{
     font-family: regular;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 100;
 }
 .page-link-btn:hover{

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: Rozha;
+    src: url(/assets/Fonts/Rozha-One.ttf);
+}
+@font-face{
+    font-family: Black-bold;
+    src: url(/assets/Fonts/Moniqa-BlackDisplay.ttf);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: jost;
+    scrollbar-width:thin;
+    scrollbar-color: black white;
+}
+#main{
+    padding-left: 60px;
+    padding-right: 50px;
+}
+::selection {
+    background-color: black;
+    color: white;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 110px);
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    height: 80px;
+    z-index: 1000;
+}
+#nav-bar:hover{
+    background-color: black;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 330px;
+    height: 100%;
+    color: white;
+}
+
+#logo-text {
+    font-family: Rozha;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+}
+.nav-bar-pages-link {
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+}
+#header-box {
+    height: 9vw;
+    width: 100%;
+    /* background-color: rgb(129, 0, 0); */
+}
