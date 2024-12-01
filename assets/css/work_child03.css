@@ -31,13 +31,15 @@ html,body{
 #nav-bar {
     position: fixed;
     top: 0;
-    width: calc(100% - 110px);
+    width: 100%;
+    /* background-color: lightblue; */
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
     height: 80px;
+    padding-left: 60px;
+    padding-right: 50px;
     z-index: 1000;
-    background-color: brown;
 }
 #nav-bar:hover{
     background-color: black;
@@ -69,7 +71,96 @@ html,body{
     text-decoration: none;
 }
 #header-box {
-    height: 9vw;
+    height: 5vw;
     width: 100%;
     /* background-color: rgb(129, 0, 0); */
+}
+#main-section{
+    height:calc(100vh - 150px);
+    width: 200vw;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+#paragraph-discription{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    width: 60vw;
+    min-width: 50vw;
+    padding-left:60px;
+}
+#paragraph-discription h6{
+    color: white;
+    font-size: 4vw;
+    font-weight: 100;
+}
+#paragraph-discription p{
+    color: white;
+    font-size: 1.1vw;
+    width: 60%;
+}
+#imges{
+    display: flex;
+}
+#imges img{
+    height: 75vh;
+    width: 80vh;
+    object-fit: cover;
+    padding-left: 20px;
+}
+#nxt-btn{
+    width: 80vh;
+    height: 75vh;
+    color: white;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nxt-btn-achore{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(222, 115, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:center;
+    text-decoration: none;
+    color: white;
+    padding-right:60px;
+}
+#nxt-btn-achore span{
+    font-size: large;
+}
+#nxt-btn-achore h6{
+    font-family: Black-bold;
+    font-size: 4.5vw;
+    text-transform: uppercase;
+}
+#nxt-btn-achore:hover h6{
+    letter-spacing: 0.3vw;
+}
+#nxt-btn-achore p{
+    font-size: 2vw;
+}
+#footer{
+    height: 50px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 0px 4vw 0px 2vw;
+    position: fixed;
+}
+#footer-right-side{
+    color: rgb(182, 182, 182);
+    font-size: 13px;
+}
+.svg{
+    width: 17px;
+    margin-left: 20px;
 }

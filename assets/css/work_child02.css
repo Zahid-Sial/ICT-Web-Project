@@ -31,11 +31,14 @@ html,body{
 #nav-bar {
     position: fixed;
     top: 0;
-    width: calc(100% - 110px);
+    width: 100%;
+    /* background-color: lightblue; */
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
     height: 80px;
+    padding-left: 60px;
+    padding-right: 50px;
     z-index: 1000;
 }
 #nav-bar:hover{

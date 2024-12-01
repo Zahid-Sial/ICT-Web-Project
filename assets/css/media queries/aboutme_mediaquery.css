@@ -1,0 +1,30 @@
+@media (max-width : 900px)
+{
+    #nav-bar-links{
+        display: none;
+    }
+    #services-for-clients{
+        flex-direction: column;
+    }
+    .boxes{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxes img{
+        width: 100%;
+    }
+    #pic-text{
+        width: 97%;
+        height: 96%;
+    }
+    #last-container{
+        height: 20vh;
+    }
+    #fixed-img{
+        height: 50vh;
+    }
+    #fixed-img-2{
+        height: 55vh;
+    }
+}
