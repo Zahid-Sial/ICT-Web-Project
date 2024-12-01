@@ -28,6 +28,61 @@ html,body{
     color: white;
 }
 
+#menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    width: 100%;
+    max-height: calc(100vh - 80px);
+    position: absolute;
+    top: 15px;
+    padding-left: 60px;
+}
+.menu-item a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    line-height: 2.5;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.menu-item a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size:28px;
+}
+.menu-item a:active{
+    color: black;
+}
+#burgur-icon{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(294deg) brightness(100%) contrast(100%);
+    display: none;
+    position: fixed;
+    left: 2.5rem;   
+    top: 2rem;
+    z-index: 99999;
+}
+#burgur-icon img{
+    width: 20px;
+}
+#burgur-icon:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 #nav-bar {
     position: fixed;
     top: 0;

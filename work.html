@@ -1,16 +1,18 @@
-<!DOCTYPE html> 
-<html lang="en"> 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/png/testo-02-e1686651679816.jpg" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/work.css">
+    <link rel="stylesheet" href="assets/css/media queries/work_mediaquery.css">
     <title>Work — Usman Khan</title>
 </head>
 
 <body>
     <nav>
-        <div id="nav-bar">
+        <ul id="menu">
             <div id="logo">
                 <a style="text-decoration: none;" href="about.html">
                     <span id="logo-text">Umar Khan</span>
@@ -18,85 +20,133 @@
                 <img src="assets/png/svg/line.png" alt="line">
                 <span>Digital Artist</span>
             </div>
-            <div id="nav-bar-links">
-                <a class="nav-bar-pages-link" href="index.html">Home</a>
-                <a class="nav-bar-pages-link" href="about.html">About me</a>
-                <a class="nav-bar-pages-link" href="work.html">Work</a>
-                <a class="nav-bar-pages-link" href="contact.html">Contact</a>
-            </div>
-        </div>
-    </nav>
+            <li>
+                <input id="about-me" hidden>
+                <label for="about-me" class="menu-item">
+                    <a style="text-decoration: none; " href="index.html">Home</a>
+                </label>
+            </li>
+            <li>
+                <input id="about-me" hidden>
+                <label for="about-me" class="menu-item">
+                    <a href="about.html">About me</a>
+                </label>
+            </li>
+            <li>
+                <input id="work" hidden>
+                <label for="work" class="menu-item">
+                    <a href="work.html">Work</a>
+                </label>
+            </li>
+            <li>
+                <input id="contact" hidden>
+                <label for="contact" class="menu-item">
+                    <a href="contact.html">Contact</a>
 
-    <div id="header-box"></div>
-    <div id="main">
-        <div id="discription">
-            <h5>Work</h5>
-            <p>A fusion of abstract and landscape elements, these artworks offer a unique perspective on natural
-                scenery. Through bold brushstrokes, layers of color, and imaginative compositions, the artist invites
-                viewers to experience the essence of landscapes in a new and captivating way.</p>
-        </div>
-        <div id="wallpaper-boxes">
-            <a id="wallpaper-child-box" href="work_child01.html" >
-                <img src="assets/png/work/assets/woman-wearing-pink-garment-768x768.jpg" alt="woman wearing pink garment">
-                <div id="title">
-                    <span>01</span>
-                    <p> Abact Fustrsion</p>
+                </label>
+            </li>
+        </ul>
+    </nav>
+    
+    <div id="burgur-icon">
+        <img src="assets/png/icons8-menu.svg" alt="menu-icon">
+    </div>
+    <div id="main-container">
+        <nav>
+            <div id="nav-bar">
+                <div id="logo">
+                    <a style="text-decoration: none;" href="about.html">
+                        <span id="logo-text">Umar Khan</span>
+                    </a>
+                    <img src="assets/png/svg/line.png" alt="line">
+                    <span>Digital Artist</span>
                 </div>
-            </a>
-            <a id="wallpaper-child-box" href="work_child02.html">
-                <img src="assets/png/work/assets/woman-with-face-painted-like-mermaid-768x512.jpg" alt="woman-with-face-painted-like-mermaid">
-                <div id="title">
-                    <span>02</span>
-                    <p> Visions Unveiled</p>
+                <div id="nav-bar-links">
+                    <a class="nav-bar-pages-link" href="index.html">Home</a>
+                    <a class="nav-bar-pages-link" href="about.html">About me</a>
+                    <a class="nav-bar-pages-link" href="work.html">Work</a>
+                    <a class="nav-bar-pages-link" href="contact.html">Contact</a>
                 </div>
-            </a>
-            <a  href="">
-                <a id="wallpaper-child-box" href="work_child03.html">
-                    <img src="assets/png/work/assets/skull-with-feathers-flowers.jpg" alt="skull-with-feathers-flowers">
+            </div>
+        </nav>
+
+        <div id="header-box"></div>
+        <div id="main">
+            <div id="discription">
+                <h5>Work</h5>
+                <p>A fusion of abstract and landscape elements, these artworks offer a unique perspective on natural
+                    scenery. Through bold brushstrokes, layers of color, and imaginative compositions, the artist
+                    invites
+                    viewers to experience the essence of landscapes in a new and captivating way.</p>
+            </div>
+            <div id="wallpaper-boxes">
+                <a id="wallpaper-child-box" href="work_child01.html">
+                    <img src="assets/png/work/assets/woman-wearing-pink-garment-768x768.jpg"
+                        alt="woman wearing pink garment">
                     <div id="title">
-                        <span>03</span>
-                        <p> Canvas Chronicles</p>
+                        <span>01</span>
+                        <p> Abact Fustrsion</p>
                     </div>
                 </a>
-            </a>
-            <a id="wallpaper-child-box" href="">
-                <img src="assets/png/work/assets/life-another-planet-with-fictional-elements-768x1152.jpg" alt="life-another-planet">
-                <div id="title">
-                    <span>04</span>
-                    <p>Visions on Canvas</p>
-                </div>
-            </a>
-            <a id="wallpaper-child-box" href="">
-                <img src="assets/png/About/assets/asset 22.jpeg" alt="Artistic-men-design">
-                <div id="title">
-                    <span>05</span>
-                    <p> Artistic Journeys</p>
-                </div>
-            </a>
-            <a id="wallpaper-child-box" href="">
-                <img src="assets/png/work/assets/scene-from-other-worldly-life-1-1-680x453.jpg" alt="scene-from-other-worldly-life">
-                <div id="title">
-                    <span>06</span>
-                    <p> Artistry in Motions</p>
-                </div>
-            </a>
+                <a id="wallpaper-child-box" href="work_child02.html">
+                    <img src="assets/png/work/assets/woman-with-face-painted-like-mermaid-768x512.jpg"
+                        alt="woman-with-face-painted-like-mermaid">
+                    <div id="title">
+                        <span>02</span>
+                        <p> Visions Unveiled</p>
+                    </div>
+                </a>
+                <a href="">
+                    <a id="wallpaper-child-box" href="work_child03.html">
+                        <img src="assets/png/work/assets/skull-with-feathers-flowers.jpg"
+                            alt="skull-with-feathers-flowers">
+                        <div id="title">
+                            <span>03</span>
+                            <p> Canvas Chronicles</p>
+                        </div>
+                    </a>
+                </a>
+                <a id="wallpaper-child-box" href="">
+                    <img src="assets/png/work/assets/life-another-planet-with-fictional-elements-768x1152.jpg"
+                        alt="life-another-planet">
+                    <div id="title">
+                        <span>04</span>
+                        <p>Visions on Canvas</p>
+                    </div>
+                </a>
+                <a id="wallpaper-child-box" href="">
+                    <img src="assets/png/About/assets/asset 22.jpeg" alt="Artistic-men-design">
+                    <div id="title">
+                        <span>05</span>
+                        <p> Artistic Journeys</p>
+                    </div>
+                </a>
+                <a id="wallpaper-child-box" href="">
+                    <img src="assets/png/work/assets/scene-from-other-worldly-life-1-1-680x453.jpg"
+                        alt="scene-from-other-worldly-life">
+                    <div id="title">
+                        <span>06</span>
+                        <p> Artistry in Motions</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footer-left-side">
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img class="svg" src="assets/png/svg/asset 10.svg" alt="linkedin logo"></a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="svg" src="assets/png/svg/asset 11.svg" alt="instagram logo"></a>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <img class="svg" src="assets/png/svg/asset 12.svg" alt="twitter logo"></a>
+            </div>
+            <div id="footer-right-side">
+                <p>© 2024 | Umar Khan.</p>
+            </div>
         </div>
     </div>
-
-    <div id="footer">
-        <div id="footer-left-side">
-            <a href="https://www.linkedin.com/" target="_blank">
-                <img class="svg" src="assets/png/svg/asset 10.svg" alt="linkedin logo"></a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <img class="svg" src="assets/png/svg/asset 11.svg" alt="instagram logo"></a>
-            <a href="https://www.twitter.com/" target="_blank">
-                <img class="svg" src="assets/png/svg/asset 12.svg" alt="twitter logo"></a>
-        </div>
-        <div id="footer-right-side">
-            <p>© 2024 | Umar Khan.</p>
-        </div>
-    </div>
-
+    <script src="assets/js/scriptWork.js"></script>
 </body>
 
 </html>

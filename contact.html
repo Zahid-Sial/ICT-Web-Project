@@ -12,7 +12,7 @@
 
 <body>
     <nav>
-        <div id="nav-bar">
+        <ul id="menu">
             <div id="logo">
                 <a style="text-decoration: none;" href="about.html">
                     <span id="logo-text">Umar Khan</span>
@@ -20,64 +20,111 @@
                 <img src="assets/png/svg/line.png" alt="line">
                 <span>Digital Artist</span>
             </div>
-            <div id="nav-bar-links">
-                <a class="nav-bar-pages-link" href="index.html">Home</a>
-                <a class="nav-bar-pages-link" href="about.html">About me</a>
-                <a class="nav-bar-pages-link" href="work.html">Work</a>
-                <a class="nav-bar-pages-link" href="contact.html">Contact</a>
-            </div>
-        </div>
+            <li>
+                <input id="about-me" hidden>
+                <label for="about-me" class="menu-item">
+                    <a style="text-decoration: none; " href="index.html">Home</a>
+                </label>
+            </li>
+            <li>
+                <input id="about-me" hidden>
+                <label for="about-me" class="menu-item">
+                    <a href="about.html">About me</a>
+                </label>
+            </li>
+            <li>
+                <input id="work" hidden>
+                <label for="work" class="menu-item">
+                    <a href="work.html">Work</a>
+                </label>
+            </li>
+            <li>
+                <input id="contact" hidden>
+                <label for="contact" class="menu-item">
+                    <a href="contact.html">Contact</a>
+
+                </label>
+            </li>
+        </ul>
     </nav>
-
-    <div class="content">
-        <div class="sector1">
-            <p>
-                Got a project? <br>
-                Let's talk!
-            </p>
-        </div>
-        <div class="sector2">
-            <p class="p1">LOCATIONS</p>
-            <p class="p2">
-                San Francisco, <br>
-                Los Angeles <br>
-                CA
-            </p>
-        </div>
-        <div class="sector3">
-            <p class="p1">START A CONVERSATION</p> <br>
-            <div class="email">
-                <a href="#">hello@usmankhan.com</a>
-            </div>
-            <br>
-            <p class="p2">LET'S GET SOCIAL</p>
-
-            <div class="icons">
-                <a href="https://medium.com/" target="_blank">
-                    <img id="m" style="filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(312deg) brightness(101%) contrast(104%);" src="assets/png/medium.svg" alt="medium-img">
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="assets/png/instagram-svgrepo-com (1).svg" alt="instagram-img">
-                </a>
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img src="assets/png/facebook-svgrepo-com (1).svg" alt="facebook-img">
-                </a>
-            </div>
-        </div>
+    <div id="burgur-icon">
+        <img src="assets/png/icons8-menu.svg" alt="menu-icon">
     </div>
-    <iframe id="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d788.3589230397498!2d-122.39231901891782!3d37.779827978149356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fd7c57b79d1%3A0x919315867c9d8de2!2sDesigner%20Fund!5e0!3m2!1sen!2s!4v1731735091805!5m2!1sen!2s"
-        width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
 
-    <footer>
-        <div id="footer">
-            <div id="footer-right-side">
-                <p>© 2024 | Umar Khan.</p>
+    <div id="main-container">
+        <nav>
+            <div id="nav-bar">
+                <div id="logo">
+                    <a style="text-decoration: none;" href="about.html">
+                        <span id="logo-text">Umar Khan</span>
+                    </a>
+                    <img src="assets/png/svg/line.png" alt="line">
+                    <span>Digital Artist</span>
+                </div>
+                <div id="nav-bar-links">
+                    <a class="nav-bar-pages-link" href="index.html">Home</a>
+                    <a class="nav-bar-pages-link" href="about.html">About me</a>
+                    <a class="nav-bar-pages-link" href="work.html">Work</a>
+                    <a class="nav-bar-pages-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="sector1">
+                <p>
+                    Got a project? <br>
+                    Let's talk!
+                </p>
+            </div>
+            <div class="sector2">
+                <p class="p1">LOCATIONS</p>
+                <p class="p2">
+                    San Francisco, <br>
+                    Los Angeles <br>
+                    CA
+                </p>
+            </div>
+            <div class="sector3">
+                <p class="p1">START A CONVERSATION</p> <br>
+                <div class="email">
+                    <a href="#">hello@usmankhan.com</a>
+                </div>
+                <br>
+                <p class="p2">LET'S GET SOCIAL</p>
+
+                <div class="icons">
+                    <a href="https://medium.com/" target="_blank">
+                        <img id="m"
+                            style="filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(312deg) brightness(101%) contrast(104%);"
+                            src="assets/png/medium.svg" alt="medium-img">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="assets/png/instagram-svgrepo-com (1).svg" alt="instagram-img">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="assets/png/facebook-svgrepo-com (1).svg" alt="facebook-img">
+                    </a>
+                </div>
             </div>
         </div>
-    </footer>
+        <iframe id="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d788.3589230397498!2d-122.39231901891782!3d37.779827978149356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fd7c57b79d1%3A0x919315867c9d8de2!2sDesigner%20Fund!5e0!3m2!1sen!2s!4v1731735091805!5m2!1sen!2s"
+            width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <footer>
+            <div id="footer">
+                <div id="footer-right-side">
+                    <p>© 2024 | Umar Khan.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/scriptWork.js"></script>
+
 </body>
 
 </html>
