@@ -26,8 +26,6 @@ body {
     scrollbar-width: thin;
     scrollbar-color: black white;
     scroll-behavior: smooth;
-    transition: all 0.3s ease;
-
 }
 
 ::selection {
@@ -71,9 +69,6 @@ body {
 }
 
 
-
-
-
 #nav-bar {
     position: fixed;
     top: 0;
@@ -86,6 +81,7 @@ body {
     padding-left: 60px;
     padding-right: 50px;
     z-index: 1000;
+    transition: all 0.3s ease;
 }
 #nav-bar:hover{
     background-color: rgb(255, 255, 255);
@@ -128,7 +124,9 @@ body {
     font-size: 18px;
     text-decoration: none;
 }
-
+.nav-bar-pages-link:hover{
+    font-weight: bold;
+}
 #header-box {
     height: 8vh;
     min-height: 110px;
@@ -138,7 +136,7 @@ body {
 
 #section-1 {
     width: 100%;
-    height:100vh;
+    height:40rem;
     z-index: 0;
     /* background-color: blanchedalmond; */
 }
@@ -204,16 +202,22 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items:baseline;
+    /* background-color: aqua; */
+    height:auto;
 }
 
 #company-logo img {
     height: 8vw;
 }
+#company-logo-img-3{
+    background-color: #f56332ed;
+    border-radius: 10px;
+}
 #top-header-box {
     height: 5vw;
     min-height: 110px;
     width: 100%;
-    background-color: black;
+    /* background-color: black; */
 }
 
 #section-2-heading {
@@ -254,7 +258,7 @@ body {
     position: relative;
 }
 
-#pic-text {
+.pic-text {
     position: absolute;
     height: 93%;
     width: 94.9%;
@@ -267,8 +271,7 @@ body {
     justify-content: end;
     gap: 1.5vw;
 }
-
-#pic-text p {
+.pic-text p {
     color: rgba(237, 237, 237, 0.846);
 }
 
@@ -508,11 +511,14 @@ body {
     border-radius: 7px;
     border: none;
     font-size: medium;
+    transition: all 0.3s ease;
+
 }
 #last-container-child button:hover{
     background-color: black;
     color: white;
     cursor: pointer;
+    font-size: large;
 }
 
 #footer{

@@ -66,10 +66,6 @@ html,body {
     cursor: pointer;
 }
 
-
-
-
-
 #nav-bar {
     position: fixed;
     top: 0;
@@ -110,7 +106,9 @@ html,body {
     font-size: 18px;
     text-decoration: none;
 }
-
+.nav-bar-pages-link:hover{
+    font-weight: bold;
+}
 .content {
     color: white;
     display: flex;

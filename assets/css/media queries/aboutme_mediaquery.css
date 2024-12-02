@@ -64,4 +64,10 @@
         width: 90%;
         padding-left: 40px;
     }
+    #section-2-heading pre{
+        font-size: 10px;
+    }
+    #top-header-box {
+        display: none;
+    }
 }

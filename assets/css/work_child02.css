@@ -83,7 +83,7 @@ html,body{
     position: fixed;
     top: 0;
     width: 100%;
-    /* background-color: lightblue; */
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
@@ -91,9 +91,6 @@ html,body{
     padding-left: 60px;
     padding-right: 50px;
     z-index: 1000;
-}
-#nav-bar:hover{
-    background-color: black;
 }
 #logo {
     display: flex;
@@ -228,6 +225,7 @@ html,body{
     font-family: Black-bold;
     font-size: 5vw;
     text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 #nxt-btn-achore:hover h6{
     letter-spacing: 0.4vw;
@@ -243,6 +241,9 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+}.nav-bar-pages-link:hover{
+    font-weight: bold;
 }
 #footer{
     height: 70px;

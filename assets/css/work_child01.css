@@ -78,11 +78,6 @@ html,body{
 }
 
 
-
-
-
-
-
 #nav-bar {
     position: fixed;
     top: 0;
@@ -92,8 +87,6 @@ html,body{
     align-items: last baseline;
     height: 80px;
     z-index: 1000;
-}
-#nav-bar:hover{
     background-color: black;
 }
 #logo {
@@ -167,6 +160,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 #nxt-btn-achore{
     display: inline;
@@ -179,6 +173,7 @@ html,body{
     justify-content: center;
     text-decoration: none;
     color: white;
+
 }
 #nxt-btn-achore span{
     font-size: large;
@@ -186,14 +181,17 @@ html,body{
 #nxt-btn-achore h6{
     font-family: Black-bold;
     font-size: 5vw;
+    transition: all 0.3s ease;
 }
 #nxt-btn-achore:hover h6{
-    letter-spacing: 0.4vw;
+    letter-spacing: 0.8vw;
 }
 #nxt-btn-achore p{
     font-size: 2vw;
 }
-
+.nav-bar-pages-link:hover{
+    font-weight: bold;
+}
 #footer{
     height: 50px;
     width: 100%;

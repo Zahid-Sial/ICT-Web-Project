@@ -1,0 +1,19 @@
+@media(max-width: 700px)
+{
+    #heading-line h1{
+        font-size: 3.5rem;
+        margin-top: 2vw;
+    }
+    #heading-line h2{
+        font-size: 1.2rem;
+        padding:5px 10px 5px 10px;
+
+    }
+    #background-img{
+        height: 70vh;
+        width:70vh;
+    }
+    .page-link-btn{
+        font-size: 10vmax;
+    }
+}
